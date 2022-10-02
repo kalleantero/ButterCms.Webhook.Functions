@@ -61,7 +61,7 @@ namespace ButterCms.Webhook.Functions.Functions
 
             log.LogInformation($"ButterCMS event received: {serializedEventData}");
 
-            if (eventData?.Webhook?.Event == ButterCmsEventNames.PostPublished)
+            if (eventData?.Webhook?.Event == ButterCmsEventNames.PostPublished || eventData?.Webhook?.Event == ButterCmsEventNames.PostDeleted)
             {
                 log.LogInformation("Starting DevOps pipeline.");
                 await _devOpsService.StartPipeline();
