@@ -7,6 +7,7 @@ Azure Function in this repository is responsible for identify right Webhook even
 - Azure Functions V4 (HttpTrigger)
 
 ## Read more
-- Blog post - https://www.kallemarjokorpi.fi/blog/tech-stack-of-the-blog.html
-- ButterCMS - https://buttercms.com
-- Azure Functions - https://learn.microsoft.com/en-us/azure/azure-functions
+- Blog post
+  - [How has the tech stack of this blog evolved?](https://www.kallemarjokorpi.fi/blog/tech-stack-of-the-blog.html)
+- [ButterCMS](https://buttercms.com)
+- [Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions)
